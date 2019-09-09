@@ -1,10 +1,8 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Geoveza
+author: Geoveza
+email: halo@geoveza.me
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Learn be Better!.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,19 +10,19 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Geoveza
+  tagline: IT Researcher
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: geoveza1
+    github:  Geoveza
+    linkedIn: in/eza-geoveza-637811158
     rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: eza.geovezaa
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: jekyll
