@@ -84,7 +84,6 @@ Terima kasih telah meluangkan sedikit waktu anda untuk membaca tulisan yang saya
 Referensi :
 
 https://reverseengineering.stackexchange.com/questions/
-https://id.wikipedia.org/wiki/Rekayasa_balik
 https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project
 
 
