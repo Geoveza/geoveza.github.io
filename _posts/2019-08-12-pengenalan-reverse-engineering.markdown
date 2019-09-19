@@ -57,7 +57,7 @@ Sekarang setelah berhasil “membongkar” sebuah aplikasi menjadi kode teks (ba
 
 Sebagian besar programmer yang saya kenal mengalami kesulitan jika harus membaca kode-kode library opensource, padahal kode ini memiliki nama variabel yang jelas, memiliki komentar, memiliki dokumentasi lengkap dan bahkan sebagian ada bukunya. Nah sekarang bayangkan membaca kode tanpa dokumentasi, tanpa nama yang jelas (bahkan kadang sengaja dibuat menyesatkan).
 
-<h2>Analisis Dinamik</h2>
+<h>Analisis Dinamik</h>
 
 Untungnya ketika membongkar sesuatu biasanya kita hanya mengejar satu bagian spesifik. Contohnya: kita hanya ingin membypass registrasi, atau kita ingin mengekstrak sesuatu encryption key dari aplikasi, jadi kita tidak perlu memahami seluruh kode. Masalah utamanya adalah: mencari kode yang relevan yang kita inginkan. Untuk mencari ini dibutuhkan kesabaran yang sangat tinggi dan biasanya tidak cukup analisis statik (dengan membaca kode saja).
 
@@ -65,7 +65,7 @@ Analisis berikutnya adalah analisis dinamik menggunakan debugger. Artinya di sin
 
 Contoh realnya: jika kita ingin mencari kode registrasi di aplikasi Windows kita bisa melakukan breakpoint di fungsi "GetWindowText" (ini hanya salah satu fungsi yang bisa digunakan untuk mengambil nilai textbox), lalu ketika kita pencet tombol “Register”, maka debugger akan berhenti di "GetWindowText" dan kita bisa meneruskan dari situ untuk mencari di mana pemeriksaan serial number dilakukan.
 
-<h2>Belajarlah Memprogram</h2>
+<h>Belajarlah Memprogram</h>
 
 Saya tidak mencari ribuan file untuk saya reverse engineer dan pahami. Saya belajar dari sisi yang lain: memprogram. Ketika saya memprogram, saya akan membongkar file yang saya program. Saya berusaha memahami apa output file yang dihasilkan oleh tool dan berusaha mencari apakah ada cara untuk membongkarnya kembali.
 
@@ -73,7 +73,7 @@ Banyak sekali hal dasar akan bisa diketahui dari sekedar mengcompile lalu membon
 
 Kemampuan programming juga penting untuk memanipulasi program yang ingin kita bongkar. Selain itu pemahaman akan berbagai aspek sistem operasi juga diperlukan (berbagai API yang ada di OS).
 
-<h2>Penutup</h2>
+<h>Penutup</h>
 
 Tentunya tidak semua yang saya sarankan cocok buat Anda. Bagi yang suka langsung terjun mendalami assembly Intel bisa mencoba membaca [Introductory Intel x86: Architecture, Assembly, Applications, & Alliteration][intel]. Alternatif lain adalah dengan membaca berbagai buku reverse engineering yang saat ini sudah ada, walau menurut saya kebanyakan buku hanya berfokus langsung pada native code. Jika Anda adalah tipe yang lebih gampang belajar dari contoh, Anda juga bisa mencoba berbagai tutorial di Internet untuk mengcrack program spesifik versi tertentu.
 
