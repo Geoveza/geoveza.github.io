@@ -51,7 +51,7 @@ Hasil dari membongkar adalah:
 - Source code (jika Anda beruntung)
 - Hasil disassembly (jika tidak ada decompiler untuk executable tersebut)
 
-Pahami
+<h2>Pahami</h2>
 
 Sekarang setelah berhasil “membongkar” sebuah aplikasi menjadi kode teks (baik teks source code dan/atau assembly), tahap berikutnya adalah memahami aplikasi tersebut, dan ini bagian tersulit. Mudahnya begini: apakah Anda pernah melihat source code berbagai aplikasi dan library open source yang Anda pakai? Jika belum, coba download source dari berbagai aplikasi (atau pergi ke github) dan coba pahami isinya.
 
