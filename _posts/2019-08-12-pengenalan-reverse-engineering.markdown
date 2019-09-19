@@ -6,13 +6,13 @@ categories: Reverse Engineering
 ---
 Sudah beberapa kali saya ditanya: kalo ada aplikasi X bagaimana cara membongkarnya? Bahasa kerennya: bagaimana saya melakukan [Reverse Engineering][reverse-engineering] terhadap aplikasi tertentu?. Sayangnya tidak ada jawaban sederhana untuk ini. Bagaimana membongkar sesuatu tergantung pada teknologi yang digunakan untuk membangun dan memproteksi benda itu. Berbagai tools juga bergantung pada sistem operasi yang menjadi target.
 
-Asumsi dalam tulisan ini
+<h2>Asumsi dalam tulisan ini</h2>
 
 Asumsi saya: Anda harus tahu hal sangat dasar, seperti: apa bedanya Source Code, File Executable, File Data dsb.  Jika Anda masih bingung dan berusaha membuka file source code atau file data dengan [IDA Pro][ida-pro], atau berusaha membuka executable dengan Notepad, maka saran saya adalah:
 - belajarlah dulu programming, belajar minimal meng-compile source code menjadi file executable.
 - belajar tool dasar seperti Hex Editor, [Text Editor][text-editor],Image Viewer
 
-Identifikasi
+<h2>Identifikasi</h2>
 
 Tahap pertama dalam reverse engineering adalah identifikasi teknologi. Mari kita mulai dari satu contoh yang umum dulu: aplikasi Windows. Berikutnya akan saya bahas sedikit contoh aplikasi di OS lain. Aplikasi Windows bisa ditulis dalam ribuan bahasa pemrograman. Saya asumsikan aplikasinya sudah terinstall. Pertama yang harus kita cari adalah mencari tahu apa yang dieksekusi ketika shortcut aplikasi diklik. Ini dilakukan dengan melihat target shortcut (klik kanan pada shortcut, properties).
 
@@ -28,7 +28,7 @@ Saya tidak akan menjelaskan semua teknologi yang bisa dipakai untuk membuat sebu
 
 Situasi di sistem operasi lain juga serupa. Di OS X kita perlu membuka bundle .app, lalu melihat ke dalamnya. Di dalam sebuah bundle Anda bisa melihat semua file executable, library, dan asset yang dipakai oleh sebuah aplikasi. Sebuah file .app di OSX bisa dibangun dengan berbagai teknologi juga, hampir sama banyaknya dengan EXE di Windows. Sebagai informasi: file IPA di iOS sebenarnya adalah file ZIP dan didalamnya ada .app.
 
-Bongkar
+<h2>Bongkar</h2>
 
 Jika sudah berhasil mengidentifikasi: teknologi apa yang dipakai untuk membuat file EXE, maka kita bisa membongkarnya. Contoh: jika ternyata EXE dibangun dengan Python, kita bisa mengekstrak file pyc dan melakukan dekompilasi dengan [uncompyle][uncompyle].
 
