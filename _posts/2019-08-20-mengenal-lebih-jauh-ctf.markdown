@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mengenal Lebih Jauh CTF"
-date:   2019-08-12 21:15:00 +0530
+date:   2019-08-20 21:50:00 +0530
 categories: CTF
 ---
 Di posting ini saya hanya ingin memperkenalkan apa itu kompetisi security CTF (capture the flag). Posting ini akan membahas apa itu security CTF, apa manfaatnya ikut security CTF, seperti apa saja soal-soalnya, dan bagaimana caranya mulai ikut.
@@ -60,6 +60,8 @@ Jika event sifatnya adalah team, Anda tetap bisa mendaftar sebagai individu (ata
 Silakan mencari-cari event dan silakan mencoba. Event CTF biasanya 48 jam atau lebih dan biasanya weekend, jadi Anda bisa meluangkan waktu sebisanya di weekend, karena gratis, Anda juga nggak akan rugi uang. Sebagian orang memakai nama asli, tapi kebanyakan memakai nickname ketika mendaftar, jadi Anda juga tidak akan merasa malu kalau kalah (atau tidak jadi mengerjakan soalnya jika sibuk saat weekend).
 
 Selain event online, di Indonesia sudah diadakan juga beberapa event CTF offline, tapi sayangnya ini tidak banyak didokumentasikan (jarang yang menulis writeupnya), dan kadang eventnya sangat lokal (misalnya : [Cyber Jawara][cyber-jawara] diselenggarakan Idsirtii & BSSN). 
+
+
 
 [cyber-jawara]: https://jawara.idsirtii.or.id/
 [pengenalan-reverse-engineering]: https://geoveza.me/reverse/engineering/2019/08/12/pengenalan-reverse-engineering.html
