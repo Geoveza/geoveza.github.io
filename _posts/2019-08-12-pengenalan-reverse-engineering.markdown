@@ -4,6 +4,7 @@ title:  "Pengenalan Reverse Engineering"
 date:   2019-08-12 20:50:00 +0530
 categories: Reverse Engineering
 ---
+
 Sudah beberapa kali saya ditanya: kalo ada aplikasi X bagaimana cara membongkarnya? Bahasa kerennya: bagaimana saya melakukan [Reverse Engineering][reverse-engineering] terhadap aplikasi tertentu?. Sayangnya tidak ada jawaban sederhana untuk ini. Bagaimana membongkar sesuatu tergantung pada teknologi yang digunakan untuk membangun dan memproteksi benda itu. Berbagai tools juga bergantung pada sistem operasi yang menjadi target.
 
 <h2>Asumsi dalam tulisan ini</h2>

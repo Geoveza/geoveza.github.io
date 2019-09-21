@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Mengenal Lebih Jauh CTF"
-date:   2019-08-20 21:50:00 +0530
+date:   2019-08-21 13:38:00 +0530
 categories: CTF
 ---
+
+
 Di posting ini saya hanya ingin memperkenalkan apa itu kompetisi security CTF (capture the flag). Posting ini akan membahas apa itu security CTF, apa manfaatnya ikut security CTF, seperti apa saja soal-soalnya, dan bagaimana caranya mulai ikut.
 
 Sebenarnya selain security CTF ada berbagai CTF yang lain, tapi dalam posting ini selanjutnya saya akan menyebut CTF saja untuk security CTF. Setelah ikutan CTF-nya [CTFWITHGOOGLE][ctfwithgoogle] saya jadi lebih tertarik dengan CTF lalu iseng mencoba mendirikan sebuah team "4Y4M_JAG0" bersama teman-teman lainya. Harapan saya ingin memperkenalkan CTF ini ke publik, supaya suatu saat team dari Indonesia bisa masuk minimal 10 besar di https://ctftime.org/ Aminn!!.
