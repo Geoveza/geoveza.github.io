@@ -13,7 +13,7 @@ $leftWidth: 220px;
 }
 
 body {
-	font-family: 'Merriweather', Georgia, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	line-height: 1.2em;
 	margin: 0;
@@ -31,23 +31,10 @@ a {
 	&:hover {
 		color: $linkColor;
 	}
-h2 {
-	display: block;
-	font-size: 1.5em;
-	margin-top: 0.83em;
-	margin-bottom: 0.83em;
-	margin-left: 0;
-	margin-right: 0;
-	font-weight: bold;
 }
-h5 {
-  display: block;
-  font-size: .83em;
-  margin-top: 1.67em;
-  margin-bottom: 1.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
+
+h2 {
+	margin: 0.7em 0;
 }
 main {
 	margin: 0 90px;

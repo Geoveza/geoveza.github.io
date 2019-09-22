@@ -6,7 +6,7 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<img src="{{ "/assets/geoveza.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
+			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
 			<h2>{{ site.plainwhite.name }}</h2>
 			<p class="tagline">{{ site.plainwhite.tagline }}</p>
 			<ul class="social">
@@ -20,16 +20,15 @@
 			{{ content }}
 		</section>
 	</main>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147678638-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
+	{%- if site.plainwhite.analytics_id -%}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-147678638-1');
-</script>
+		gtag('config', '{{ site.plainwhite.analytics_id }}');
+	</script>
+	{%- endif -%}
 </body>
 </html>
