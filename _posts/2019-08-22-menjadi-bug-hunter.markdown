@@ -5,7 +5,7 @@ date:   2019-08-22 21:19:59 +0530
 categories: Security
 ---
 
-Tulisan ini adalah pengantar untuk tulisan-tulisan saya berikutnya dalam topik security yang akan saya publish dalam beberapa hari ke depan. Saya akan mendeskripsikan bug-bug yang cukup fatal dalam beberapa aplikasi Indonesia yang pernah saya temukan. Semua bug ini sudah diperbaiki, jadi tidak berbahaya bagi siapapun. Yang sudah saya rencanakan adalah: BCA e-money, Go-jek, Google, Tokopedia, Bukalapak,.
+Tulisan ini adalah pengantar untuk tulisan-tulisan saya berikutnya dalam topik security yang akan saya publish dalam beberapa hari ke depan. Saya akan mendeskripsikan bug-bug yang cukup fatal dalam beberapa aplikasi Indonesia yang pernah saya temukan. Semua bug ini sudah diperbaiki, jadi tidak berbahaya bagi siapapun. Yang sudah saya rencanakan adalah: BCA, Go-jek, Google, Tokopedia, Bukalapak,.
 
 Sebagian akan ada yang mempertanyakan: untuk apa mendeskripsikan bug yang sudah diperbaiki? nanti cuma akan mempermalukan perusahaan itu saja, tidak ada gunanya!. Mendeskripsikan bug sudah merupakan hal yang sangat lazim dilakukan setiap hari di dunia security. Bahkan Google juga memeriksa bug-bug software perusahaan lain melalui [Project Zero][project-zero], [di blog project zero][blog-project-zero], Anda bisa melihat berbagai bug dari mulai Antivirus sampai sistem operasi.
 
