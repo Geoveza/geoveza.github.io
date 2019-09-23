@@ -69,7 +69,7 @@ Untuk developer yang ingin belajar mengamankan aplikasi buatannya, maka dasar-da
 
 Jika ingin lebih serius, pendekatan lain yang bisa ditempuh adalah mengambil sertifikasi seperti CEH, OSCP atau yang lain. Biasanya ada materi pelajaran yang harus diikuti sebelum mendapatkan sertifikasi security tersebut. Orang yang memiliki sertifikasi tidak dijamin jago (apalagi ada yang memakai joki), tapi minimal mereka pernah mendengar dan mengenal berbagai masalah security.
 
-Latihan yang legal bisa dilakukan dengan mensetup berbagai aplikasi yang vulnerable (mengandung bug). Saat ini ada [Damn Vulnerable Web Application][dwva](DWVA) sebuah aplikasi web yang sengaja dibuat banyak bugnya untuk dipakai latihan (ada banyak varian lain selain DVWA ini). Tentu saja kita bisa menginstall sendiri Drupal atau WordPress versi lama. Alternatif lain adalah dengan mengikuti berbagai CTF yang ada (dalam konteks ingin belajar web hacking, selesaikan saja kategori webnya).
+Latihan yang legal bisa dilakukan dengan mensetup berbagai aplikasi yang vulnerable (mengandung bug). Saat ini ada [Damn Vulnerable Web Application][dvwa](DWVA) sebuah aplikasi web yang sengaja dibuat banyak bugnya untuk dipakai latihan (ada banyak varian lain selain DVWA ini). Tentu saja kita bisa menginstall sendiri Drupal atau WordPress versi lama. Alternatif lain adalah dengan mengikuti berbagai CTF yang ada (dalam konteks ingin belajar web hacking, selesaikan saja kategori webnya).
 
 <h2>Buku</h2>
 
