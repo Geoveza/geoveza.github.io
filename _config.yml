@@ -1,8 +1,8 @@
 title: Geoveza
 author: Geoveza
-email: dev@geoveza.me
+email: halo@geoveza.me
 description: > # this means to ignore newlines until "show_exerpts:"
-  Let's Grasp Your Ability to Learn Exploit and Code.
+  Let's Grasp Your Ability to Learn Exploit and Code . 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -17,7 +17,7 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-  twitter: geoveza1
+    twitter: geoveza1
     github:  Geoveza
     linkedIn: in/eza-geoveza-637811158/
     # dribbble: 
