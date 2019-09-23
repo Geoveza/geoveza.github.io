@@ -5,17 +5,17 @@ date:  2019-08-23 21:50:47 +0530
 categories: Security
 ---
 Ini hal dasar dalam protokol HTTP yang sangat berguna untuk security. Cookie adalah data kecil yang dikirim oleh server ke browser, dan akan dikirimkan kembali oleh browser ketika mengunjungi website yang sama. Logikanya jika kita pergi ke dokter, kita diberi kartu, dan ketika kembali lagi ke dokter tersebut, kita memberikan lagi kartunya supaya bisa dikenali seperti acces card.
-<img src = "assets/cookie.png" 
+<img src = "{{ "/assets/cookie.png" }}" 
      alt = "Setelah server memberi “Cookie”, browser akan memberikan lagi “Cookie” ke server di request berikutnya" 
      style = "float: left; margin-right: 20px;" />
 Dalam kasus sebuah kartu berobat, ada beberapa opsi dalam penyimpanan data. Mungkin kita hanya diberi kartu dengan nomor pasien, lalu seluruh datanya disimpan di dalam komputer klinik atau rumah sakit (atau sekedar di sebuah folder khusus).
 
 Sebuah session dalam aplikasi web adalah sejumlah request dan response yang berhubungan. Misalnya: login, memilih barang, membeli barang,. sampai logout. Sesuai analogi kartu yang hanya berisi ID, cookie juga bisa berisi ssession ID saja, yaitu berupa karakter random yang tidak bisa ditebak (jika bisa ditebak, kita bisa seolah-olah menjadi orang lain)
-<img src = "assets/cookie-2.png"
+<img src = "{{ "/assets/cookie-2.png" }}"
      alt = "Session ID"
      style = "float: left; margin-right: 20px;" />
 Dalam kasus lain, misalnya untuk dokter anak, kita diberi buku kecil, dan data mengenai anak disimpan di buku itu. Contohnya adalah data mengenai perkembangan berat badan anak. Bagusnya dengan buku seperti ini, kita bisa membawanya ke dokter anak manapun. Dalam kasus Cookie: jika data disimpan di client, maka jika sebuah domain memiliki banyak server, maka tidak perlu sinkronisasi data antar server atau memakai database terpusat.
-<img src = "assets/cookiedata.png"
+<img src = "{{ "/assets/cookiedata.png" }}"
      alt = "Data cookie di client, dilindungi dengan signature"
      style = "float: left; margin-right: 20px;" />
 Ketika sebuah aplikasi web butuh menyimpan data seseorang yang sedang login, maka biasanya yang dipakai adalah Cookie. Cookie ini bisa sekedar berisi informasi session id (dengan seluruh data ada di server), bisa juga berisi datanya langsung. Karena cookie bisa diedit, maka sebuah aplikasi yang aman akan menambahkan [digital signature][digital-signature] atau bahkan datanya semuanya dienkrip.
