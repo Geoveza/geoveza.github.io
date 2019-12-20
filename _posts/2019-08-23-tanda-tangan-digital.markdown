@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tanda Tangan Digital (Digital Signature)"
-comments: true
 date:   2019-08-23 21:52:59 +0530
 categories: Security
 ---
@@ -32,9 +31,6 @@ Seperti terlihat di tulisan ini, bahwa untuk memahami signing saja diperlukan pe
 
 Nantinya di bagian lain signing ini juga jadi bagian dari sesuatu yang lebih kompleks. Tapi sebelum meneruskan lagi, saya akan membahas mengenai stream dan block cipher di bagian-bagian berikutnya.
 
-  // some contents
-  {% include disqus.html %}
-  // some contents
 
 [hasing]: #
 [padding]: #
