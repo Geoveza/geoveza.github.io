@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Memulai Belajar Hacking Web"
+comments: true
 date:  2019-08-22 21:52:59 +0530
 categories: Security
 ---
